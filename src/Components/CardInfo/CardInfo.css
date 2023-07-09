@@ -1,0 +1,460 @@
+.CardInfoMain {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CardInfo {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.CardInfoHead {
+    width: 100%;
+    height: 5%;
+
+}
+
+.CardInfoContainer {
+    width: 85%;
+    height: 95%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.CardInfoContainerImageCont {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.CardInfoImg {
+    width: 80%;
+    height: 87%;
+    border-radius: 10px;
+
+}
+
+.CardInfoContainerTextCont {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+
+
+}
+
+.CardInfoTraderCont {
+    width: 60%;
+    height: 40px;
+
+}
+
+.CardInfoTraderCont p {
+    font-size: 24px;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 600;
+
+}
+
+.add {
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid #FFEA00;
+
+
+    font-size: 20px;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 600;
+
+
+
+}
+
+.CardInfoName {
+    font-size: 53px;
+
+}
+
+.CardInfoTextCont {
+    width: 87%;
+    height: 190px;
+
+
+
+}
+
+.CardInfoButtonsCont {
+    width: 62%;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid lightgrey;
+}
+
+.CardInfoPrice {
+    font-size: 37px;
+    color: black;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 600;
+
+
+}
+
+.CardInfoStock {
+    font-size: 20px;
+    color: #3BCD2E;
+
+    font-weight: 500;
+    font-family: 'ABeeZee', sans-serif;
+    position: relative;
+    left: -17px;
+
+}
+
+.LikeBtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+
+
+}
+
+.LikeBtn:hover {
+    box-shadow: 0 0 10px #ccc;
+}
+
+.LikeBtnImg {
+    height: 45px;
+    width: 45px;
+}
+
+
+
+.CardInfoPayCont {
+    width: 60%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: -10px;
+    position: relative;
+    top: 30px
+}
+
+.CardInfoPayCard {
+    width: 60px;
+    height: 60px;
+
+}
+
+.CardInfoPayCardImg {
+    width: 90%;
+    height: 90%;
+}
+
+.CardInfoDelivery {
+    width: 41%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+
+}
+
+.CardInfoDeliveryFirstPart {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 8px;
+}
+
+.CardInfoDeliveryText {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.CardInfoDeliveryImage {
+    width: 33px;
+    height: 33px;
+    position: relative;
+    left: 10px;
+
+}
+
+.second {
+    position: relative;
+    left: -20px;
+}
+
+.CardInfoRating {
+    width: 48%;
+    height: 50px;
+    position: relative;
+    top: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.star {
+    color: #ccc;
+    font-size: 1.9rem;
+    cursor: pointer;
+}
+
+.star.filled {
+    color: gold;
+}
+
+.rating {
+    display: inline-block;
+}
+
+.CardInfoRatingText {
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'ABeeZee', sans-serif;
+    position: relative;
+    top: 3px;
+}
+
+.CardInfoCommentsBtn {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 10px;
+
+
+
+
+
+
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'ABeeZee', sans-serif;
+    color: black;
+
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.CardInfoCommentsBtnImage {
+    width: 30px;
+    height: 30px;
+}
+
+.CommentsContainer {
+    width: 30%;
+    height: 50vh;
+
+    position: relative;
+    display: flex;
+
+    position: relative;
+    left: 15%;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    top: -25px;
+
+
+
+
+
+
+
+}
+
+.CommentInputCont {
+    width: 92%;
+    height: 100px;
+
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+
+
+}
+
+.CommentInput {
+    width: 83%;
+    height: 86%;
+
+    resize: none;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 10px;
+
+
+    border: 2px solid lightgrey;
+}
+
+.CommentBtn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+
+    background-color: white;
+    border: 2px solid lightgrey;
+    background-color: white;
+    font-size: 24px;
+    font-weight: 600;
+    color: gray;
+
+
+
+}
+
+.CommentsCardContainer {
+    width: 90%;
+    height: 68%;
+
+    border-radius: 10px;
+    overflow-y: scroll;
+
+}
+
+
+
+.ComentsCard {
+    width: 85%;
+    height: 190px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 2px solid lightgrey;
+    margin: 10px;
+}
+
+.ComentsCardHead {
+    width: 93%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+
+
+
+}
+
+.CommentsCardText {
+    font-size: 20px;
+    color: black;
+}
+
+.CommentStarCont {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.CommentStar {
+    color: #ccc;
+    font-size: 1.7rem;
+    cursor: pointer;
+
+}
+
+.CommentStar.filled {
+    color: gold;
+}
+
+.rating {
+    display: inline-block;
+}
+
+.CommentCardMain {
+    width: 96%;
+    height: 57%;
+
+
+}
+
+.CommentCardMainText {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    padding: 5px;
+    resize: none;
+    border: none;
+
+
+}
+
+.CommentCardFooter {
+    width: 33%;
+    height: 20%;
+    position: relative;
+    left: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.CommentCardFooterPart {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.CommentCardFooterImg {
+    width: 20px;
+
+    height: 20px;
+}
+
+.CommentCardFooterPartLine {
+    width: 2%;
+    height: 26px;
+    border-radius: 5px;
+    background-color: grey;
+}
+
+.secontFooterImg {
+    position: relative;
+    top: 2px;
+}

@@ -1,0 +1,158 @@
+.CardMain {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.CardContainer {
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.line {
+    width: 2px;
+    height: 100%;
+    background-color: #FFEA00;
+
+}
+
+.CardsContainer {
+    width: 99.7%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: scroll;
+
+}
+
+.Card {
+    width: 300px;
+    height: 380px;
+    border: 2px solid #FFEA00;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.CardImg {
+    width: 100%;
+    height: 240px;
+    border-radius: 10px 10px 0 0;
+}
+
+.Image {
+    width: 100%;
+    height: 90%;
+    border-radius: 10px 10px 0 0;
+}
+
+.CardText {
+    width: 100%;
+    height: 180px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.Name {
+    font-size: 24px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.CardInfo {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.Text {
+    font-size: 20px;
+    font-family: 'ABeeZee', sans-serif;
+
+}
+
+.CountContainer {
+    height: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.Count {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid yellow;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Minus {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 25px;
+
+}
+
+.Add {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 25px;
+
+}
+
+.CountText {
+
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFEA00;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'ABeeZee', sans-serif;
+    border: none;
+}
+
+.CardButtons {
+    width: 100%;
+    height: 50px
+}
+
+.like {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: white;
+    border: none;
+    left: 225px;
+    top: -340px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LikeImage {
+
+    width: 25px;
+    height: 25px;
+}

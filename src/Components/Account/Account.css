@@ -1,0 +1,278 @@
+.AccountMainCont {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Account {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+
+}
+
+.AccountHead {
+    width: 80%;
+    height: 7vh;
+    background-color: white;
+
+}
+
+.AccountClose {
+    width: 50px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #FFEA00;
+    float: right;
+    position: relative;
+    left: -20px;
+    top: 6px;
+    font-size: 23px;
+    font-family: 'ABeeZee', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.AccoutMain {
+    width: 100%;
+    height: 93vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.AccountMenu {
+    width: 20%;
+    height: 105%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: -5%;
+
+
+
+}
+
+.AccountMenuFirstPart {
+    width: 100%;
+    height: 12%;
+
+    display: flex;
+
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
+    position: relative;
+    top: 30px;
+
+}
+
+.AccountMenuAvatar {
+    width: 60px;
+    height: 60px;
+    background-color: rebeccapurple;
+    border-radius: 50%;
+}
+
+.AccountName {
+    font-size: 25px;
+    color: black;
+    position: relative;
+    left: 10px;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 600;
+}
+
+.AccountMenuSecondPart {
+    width: 100%;
+    height: 5%;
+    position: relative;
+    top: 30px;
+    padding-left: 15px;
+}
+
+.Email {
+    font-size: 20px;
+
+}
+
+.AccountMenuThirdPart {
+    width: 100%;
+    height: 59%;
+    padding-left: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    top: 65px;
+}
+
+.AccountMenuCard {
+    width: 90%;
+    height: 55px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+
+}
+
+.AccountMenuCardImg {
+    width: 40px;
+    height: 40px;
+
+}
+
+.AccountMenuCardTextP {
+    font-size: 23px;
+    position: relative;
+    left: 12px;
+    font-family: 'ABeeZee', sans-serif;
+
+}
+
+.AccountMenuCardText {
+    font-size: 33px;
+    position: relative;
+    left: 2px;
+    font-weight: 600;
+    font-family: 'ABeeZee', sans-serif;
+
+}
+
+.AccountContainer {
+    width: 80%;
+    height: 100%;
+
+}
+
+.AccountMenuFourthPart {
+    width: 100%;
+    height: 10%;
+    position: relative;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.AccountLogOutBtn {
+    width: 100px;
+    height: 50px;
+    background-color: #FFEA00;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.MyOrders {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.MyView {
+    width: 100%;
+    height: 100%;
+    background-color: rebeccapurple;
+
+}
+
+.AccountCon {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.MyInfoMenu {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.MyInfoContainer {
+    width: 80%;
+    height: 100%;
+
+}
+
+.MyInfoAvatar {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+}
+
+.MyInfoName {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'ABeeZee', sans-serif;
+    position: relative;
+    top: 20px;
+
+}
+
+.MyInfoHeader {
+    width: 100%;
+    height: 12%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.MyInfoCardContainer {
+    width: 100%;
+    height: 40%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.MyInfoCard {
+    width: 280px;
+    height: 80px;
+
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+
+.EditBtn {
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFEA00;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'ABeeZee', sans-serif;
+    position: relative;
+    left: 20px;
+}

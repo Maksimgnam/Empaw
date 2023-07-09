@@ -1,0 +1,267 @@
+.MainPage {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.Catagories {
+    width: 20%;
+    height: 669px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 0 0 10px #ccc;
+
+}
+
+.CatagoriesText {
+    font-size: 30px;
+    color: #FFEA00;
+    font-family: 'ABeeZee', sans-serif;
+
+}
+
+.CatagoriesContainer {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.CatagoriesCardInput {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    top: 1px;
+    accent-color: yellow;
+}
+
+.CatagoriesCard {
+    width: 400px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.CatagoriesCardImg {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 8px;
+}
+
+.CatagoriesCardCont {
+    width: 260px;
+    height: 40px;
+
+    display: flex;
+
+    align-items: flex-start;
+    position: relative;
+    left: 15px;
+    align-items: center;
+    border-radius: 5px;
+
+
+}
+
+.CatagoriesCardCont:hover {
+    box-shadow: 0 0 10px #ccc;
+
+}
+
+.CatagoriesCardText {
+    color: #FFEA00;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    position: relative;
+
+    left: 16px;
+
+}
+
+.Cart {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+
+}
+
+.CartHead {
+    width: 100%;
+    height: 7vh;
+
+}
+
+.CartCardMain {
+    width: 100%;
+    height: 93vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.CartCardContainer {
+    width: 80%;
+    height: 80%;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.CartCard {
+    width: 300px;
+    height: 400px;
+    border: 2px solid #FFEA00;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.CartCardTextCont {
+    width: 100%;
+    height: 180px;
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding: 10px;
+    padding-left: 10px;
+
+}
+
+.CartImg {
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+}
+
+.CartCardText {
+    font-size: 20px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.CartPayCont {
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.PayBtn {
+    width: 50%;
+    height: 50px;
+    background-color: #FFEA00;
+    border-radius: 10px;
+    border: none;
+    font-size: 23px;
+    color: black;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.PayText {
+    font-size: 26px;
+    color: black;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.NumberCont {
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #FFEA00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'ABeeZee', sans-serif;
+    border: none;
+}
+
+.Follow {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.FollowHead {
+    width: 100%;
+    height: 7vh;
+}
+
+.FollowClose {
+    width: 50px;
+    height: 45px;
+    background-color: #FFEA00;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+    float: right;
+    border-radius: 50%;
+    position: relative;
+    left: -20px;
+    top: 15px;
+
+
+}
+
+.FollowContainer {
+    width: 100%;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.FollowCardContainer {
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+
+
+}
+
+.FollowCard {
+    height: 300px;
+
+}
+
+
+.Card {
+    width: 300px;
+    height: 450px;
+    border: 2px solid #FFEA00;
+    margin: 10px;
+    border-radius: 10px;
+}

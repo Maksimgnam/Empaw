@@ -1,0 +1,80 @@
+.Comments {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFEA00;
+}
+
+.CommentsCard {
+    width: 640px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10px;
+
+    box-shadow: 0 0 10px black;
+
+}
+
+.CommentsCardInput {
+    width: 95%;
+    height: 58%;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    resize: none;
+    padding: 10px;
+    font-size: 24px;
+
+    font-family: 'ABeeZee', sans-serif;
+    color: black;
+    background-color: #FFEA00;
+
+
+}
+
+.CommentsCardNameCard {
+    width: 150px;
+    height: 50px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+
+}
+
+.CommentsCardName {
+    font-size: 30px;
+    color: white;
+    font-family: 'ABeeZee', sans-serif;
+
+}
+
+.CommentsCardBtn {
+    width: 420px;
+    height: 65px;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-weight: 600;
+    color: white;
+    font-size: 22px;
+    font-family: 'ABeeZee', sans-serif;
+    position: relative;
+    left: 14%;
+}
+
+.CommentsH1 {
+    font-size: 50px;
+    font-family: 'ABeeZee', sans-serif;
+    position: relative;
+    top: -30px;
+}

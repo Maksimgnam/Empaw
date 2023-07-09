@@ -1,0 +1,91 @@
+.Registration {
+    width: 460px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.RegisterInput {
+    width: 400px;
+    height: 55px;
+    border: none;
+    border-radius: 8px;
+    border: 2px solid lightgrey;
+    padding-left: 10px;
+}
+
+.RegistrationText {
+    font-size: 34px;
+    color: black;
+}
+
+.RegistrationBtn {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 23px;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 600;
+
+}
+
+.input-file {
+    display: inline-block;
+    background-color: #FFEA00;
+    color: black;
+    font-weight: 500;
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 180px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+
+
+}
+
+
+.photo {
+    display: none;
+}
+
+#file-name {
+    color: black;
+    font-size: 16px;
+    position: relative;
+    left: 15px;
+
+}
+
+.FileContainer {
+    width: 60%;
+    height: 60px;
+    align-items: center;
+
+    display: flex;
+
+    position: relative;
+    left: -62px
+}
+
+.InputImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 16px;
+}
