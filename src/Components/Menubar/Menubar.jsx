@@ -88,16 +88,7 @@ const Menubar = ({ MenubarClose, CartOpen, FollowOpen, OpenMain, CommentsOpen })
                 </div>
 
 
-                <div className="AboutUs">
-                    <div className="AboutName">
-                        About us
 
-                    </div>
-                    <a href="" className='AboutText'>Info</a>
-                    <a href="" className='AboutText'>Blog</a>
-                    <a href="" className='AboutText'>Delivery</a>
-
-                </div>
                 <div className="MenubarFooter">
                     <span>   &copy; </span>  Copyright {time}
 

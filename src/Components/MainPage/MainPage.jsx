@@ -7,6 +7,7 @@ import Account from '../Account/Account';
 import Menubar from '../Menubar/Menubar';
 import CardInfo from '../CardInfo/Cardinfo';
 import Comments from '../Comments/Comments';
+import PaymentCard from '../PaymentCard/PaymentCard';
 
 
 
@@ -22,6 +23,8 @@ const MainPage = ({ value }) => {
     const [openMenubar, setOpenMenubar] = useState(false);
     const [openCardInfo, setOpenCardInfo] = useState(null);
     const [openComments, setOpenComments] = useState(false);
+    const [openPaymentCard, setOpenPaymentCard] = useState(false)
+    const orderNumber = Array.from({ length: 1 }, () => Math.floor(Math.random() * 100000000));
 
 
 
@@ -91,6 +94,12 @@ const MainPage = ({ value }) => {
         setOpenMenubar(false);
         setOpenCatagories(true)
     }
+    const OpenPaymentCard = () => {
+        setOpenPaymentCard(true)
+    }
+    const ClosePaymentCard = () => {
+        setOpenPaymentCard(false)
+    }
 
     const [cartItems, setCartItems] = useState([]);
 
@@ -106,7 +115,7 @@ const MainPage = ({ value }) => {
 
 
     }
-    const TotalPrice = cartItems.reduce((acc, current) => acc + current.price, 0)
+    const initialTotalPrice = cartItems.reduce((acc, current) => acc + current.price, 0)
     const [searchQuery, setSearchQuery] = useState('');
 
     const SearchChange = (e) => {
@@ -142,6 +151,8 @@ const MainPage = ({ value }) => {
         setOpenCardInfo(false)
         setOpenFollow(false)
     }
+
+    const ItemsAmount = cartItems.length
 
 
 
@@ -200,18 +211,27 @@ const MainPage = ({ value }) => {
                                                 <h3 className='Name'>{item.name}</h3>
                                                 <p className='CartCardText'>Price: {item.price}$</p>
                                                 <p className='CartCardText'>Type: {item.type}</p>
-                                                <div className="NumberCont"></div>
+
+
 
                                             </div>
                                         </div>
                                     ))}
                                 </div>
                                 <div className='CartPayCont'>
-                                    <p className='PayText'>Total price:  {TotalPrice}$ </p>
-                                    <button className='PayBtn'>Pay</button>
+                                    <p className='PayText'>Total price:  {initialTotalPrice}$ </p>
+                                    <button className='PayBtn' onClick={OpenPaymentCard}>Pay</button>
                                 </div>
 
                             </div>
+                            {
+                                openPaymentCard
+                                && (
+                                    <PaymentCard initialTotalPrice={initialTotalPrice} ClosePaymentCard={ClosePaymentCard} ItemsAmount={ItemsAmount} orderNumber={orderNumber} />
+
+                                )
+                            }
+
 
                         </div>
 

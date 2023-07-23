@@ -1,7 +1,8 @@
 const Catagories = ({ CategoryClick }) => {
+
     return (
         <div className="Catagories">
-            <h3 className='CatagoriesText'><span className='colorBlack'>C</span>atagories</h3>
+            <h3 className='CatagoriesText'><span className='blackSpan'>C</span>atagories</h3>
             <div className="CatagoriesContainer">
 
                 <div className="CatagoriesCard" onClick={() => CategoryClick('Clothes')} >
@@ -82,7 +83,7 @@ const Catagories = ({ CategoryClick }) => {
 
                     </div>
                 </div>
-                <div className="CatagoriesCard" onClick={() => CategoryClick('Consumer Electronic')} >
+                <div className="CatagoriesCard" onClick={() => CategoryClick('Consumer Electronics')} >
 
 
                     <div className="CatagoriesCardCont">

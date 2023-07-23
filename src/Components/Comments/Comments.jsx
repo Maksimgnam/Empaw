@@ -2,7 +2,9 @@
 import { useState } from 'react';
 import './Comments.css';
 import emailjs from 'emailjs-com';
+
 const Comments = () => {
+    const name = localStorage.getItem('name')
 
     const [message, setMessage] = useState('')
     const Submit = (e) => {
@@ -11,11 +13,12 @@ const Comments = () => {
         const emailContent = {
 
 
-            message: message
+            message: message,
+            name: name
         };
 
         emailjs
-            .send('service_wb3p3vc', 'service_wb3p3vc', emailContent, 'XIKKVFGQTwbBsdkZH')
+            .send('service_rbe3sjg', 'template_4fazvej', emailContent, 'XIKKVFGQTwbBsdkZH')
             .then((result) => {
                 console.log(result.text);
             })
@@ -28,7 +31,7 @@ const Comments = () => {
             <h1 className='CommentsH1'>Write your comment</h1>
             <form className="CommentsCard" onSubmit={Submit}>
                 <div className="CommentsCardNameCard">
-                    <div className="CommentsCardName">Name</div>
+                    <div className="CommentsCardName">{name}</div>
                 </div>
                 <textarea className='CommentsCardInput' placeholder='Type your opinion' value={message} onChange={(e) => setMessage(e.target.value)} />
                 <button className='CommentsCardBtn'>Send</button>
